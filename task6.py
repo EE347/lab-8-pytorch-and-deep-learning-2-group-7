@@ -14,6 +14,15 @@ import torch.nn.functional as F
 import random
 import pandas as pd
 
+#       Loss Function  Train Loss  Test Loss  Test Accuracy
+# 0  CrossEntropyLoss    0.652985   0.693147            0.5
+# 1  CrossEntropyLoss    0.339476   0.693272            0.5
+# 2  CrossEntropyLoss    0.348050   0.693373            0.5
+# 3  CrossEntropyLoss    0.125078   0.693154            0.5
+# 4           NLLLoss    0.648042   0.693182            0.5
+# 5           NLLLoss    0.227269   0.693271            0.5
+# 6           NLLLoss    0.020275   0.693961            0.5
+# 7           NLLLoss    0.007978   0.694922            0.5
 
 if __name__ == '__main__':
 
