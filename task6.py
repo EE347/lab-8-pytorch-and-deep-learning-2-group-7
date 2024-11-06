@@ -143,7 +143,6 @@ if __name__ == '__main__':
                 # Accumulate the number of correct classifications
                 correct += (predicted == labels).sum().item()
 
-
             test_accuracy = correct/total
             train_loss_avg = train_loss / len(trainloader)
             test_loss_avg = test_loss / len(testloader)
